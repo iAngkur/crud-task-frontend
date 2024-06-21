@@ -1,0 +1,24 @@
+$red:     #f9bfbf;
+
+.list-group-item  {
+    cursor: pointer;
+}
+.list-group-item.hover {
+    background-color: $red;
+}
+
+.mark-completed {
+    text-decoration: line-through;
+}
+
+.active {
+    background-color: #FFC300;
+    color: black;
+    font-weight: 700;
+}
+
+.btn-bg {
+    background-color: #009E60;
+    color: white;
+    font-weight: 600;
+}
